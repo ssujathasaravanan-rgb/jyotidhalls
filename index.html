@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jyothi Dhall — Premium Wholesale Toor, Urad &amp; Moong Dhall | Tondiarpet, Chennai</title>
+<meta name="description" content="Jyothi Brand Dhalls — premium quality toor, urad and moong dhall, hygienically processed and untouched by hands. Wholesale from Tondiarpet, Chennai. Call +91 98400 61949.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪔</text></svg>">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WholesaleStore","name":"Jyothi Dhall (J. Saravana Kumar)","description":"Premium wholesale toor, urad and moong dhall — hygienically processed, untouched by hands.","address":{"@type":"PostalAddress","streetAddress":"126/1, Seniamman Koil Street, Tondiarpet","addressLocality":"Chennai","postalCode":"600081","addressRegion":"Tamil Nadu","addressCountry":"IN"},"telephone":"+91-98400-61949","email":"jsksaravanan@gmail.com"}
+</script>
+<style>
+  :root{
+    --deep:#150b05; --deep-2:#1f0f08; --deep-3:#2a160c;
+    --flame:#f4a01d; --gold:#f8cd4c; --ember:#e0531f;
+    --maroon:#7c1512; --maroon-2:#a4241a;
+    --cream:#fff3dd; --cream-dim:#e6cba0; --cream-faint:#b79straw;
+    --toor:#5aa23a; --moong:#f4a01d; --urad:#d9c9a6;
+    --line:rgba(248,205,76,.16); --line-2:rgba(248,205,76,.32);
+    --serif:"Didot","Hoefler Text",Georgia,"Times New Roman",serif;
+    --sans:"Optima","Avenir Next","Gill Sans","Segoe UI",Roboto,system-ui,sans-serif;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    --wrap:1120px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--deep);color:var(--cream);font-family:var(--sans);
+    font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 26px}
+  h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;text-wrap:balance}
+  p{margin:0}a{color:inherit}
+  .eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;
+    color:var(--gold)}
+  .label{font-family:var(--mono);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--cream-dim)}
+
+  /* topbar */
+  .topbar{position:fixed;top:0;left:0;right:0;z-index:30;display:flex;align-items:center;justify-content:space-between;
+    padding:14px 26px;background:linear-gradient(rgba(21,11,5,.85),rgba(21,11,5,0));backdrop-filter:blur(8px);
+    transition:background .3s}
+  .topbar.solid{background:rgba(18,9,4,.9);border-bottom:1px solid var(--line)}
+  .tb-brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+  .tb-oval{padding:5px 15px;border-radius:50%/60%;background:radial-gradient(circle at 40% 30%,var(--maroon-2),var(--maroon));
+    box-shadow:0 0 16px rgba(228,83,31,.4),inset 0 1px 2px rgba(255,220,150,.3)}
+  .tb-oval span{font-family:var(--serif);font-style:italic;font-weight:700;color:#fff;font-size:1.05rem;letter-spacing:.01em}
+  .tb-brand small{font-family:var(--mono);font-size:.58rem;letter-spacing:.2em;color:var(--cream-dim);text-transform:uppercase}
+  .nav{display:flex;gap:26px}
+  .nav a{text-decoration:none;font-family:var(--mono);font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;
+    color:var(--cream-dim);transition:color .2s}
+  .nav a:hover{color:var(--gold)}
+  a:focus-visible,.btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+  @media (max-width:640px){.nav{display:none}}
+
+  /* hero */
+  .hero{position:relative;min-height:100svh;display:grid;place-items:center;overflow:hidden;text-align:center}
+  .hero-bg{position:absolute;inset:0;z-index:0;
+    background:linear-gradient(rgba(21,11,5,.55),rgba(21,11,5,.78) 55%,var(--deep) 92%),url("assets/toor-grains.png") center/cover no-repeat;
+    filter:saturate(1.1)}
+  #fx{position:absolute;inset:0;width:100%;height:100%;z-index:1}
+  .hero::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+    background:radial-gradient(circle at 50% 42%,transparent 34%,rgba(21,11,5,.4) 68%,var(--deep) 94%)}
+  .hero-content{position:relative;z-index:3;padding:120px 26px 90px;animation:riseIn 1.2s cubic-bezier(.2,.7,.2,1) both}
+  .logo{display:inline-flex;flex-direction:column;align-items:center;gap:14px}
+  .logo-tamil{font-family:var(--serif);font-size:1.5rem;color:#fff;padding:3px 20px;border-radius:50%/70%;
+    background:radial-gradient(circle at 40% 30%,var(--maroon-2),var(--maroon));
+    box-shadow:0 0 22px rgba(228,83,31,.5)}
+  .logo-oval{position:relative;padding:22px 60px;border-radius:50%/58%;
+    background:radial-gradient(circle at 42% 32%,var(--maroon-2),var(--maroon) 70%,#5e0f0c);
+    box-shadow:0 0 60px rgba(244,160,29,.35),0 0 120px rgba(228,83,31,.25),inset 0 2px 4px rgba(255,220,150,.35),inset 0 -6px 18px rgba(0,0,0,.4);
+    animation:flame 4.5s ease-in-out infinite}
+  .logo-oval h1{font-family:var(--serif);font-style:italic;font-weight:700;color:#fff;
+    font-size:clamp(3rem,9vw,6.2rem);line-height:1;letter-spacing:.01em;
+    text-shadow:0 2px 10px rgba(0,0,0,.4),0 0 30px rgba(255,225,160,.3)}
+  .tagline{font-family:var(--serif);font-style:italic;font-size:clamp(1.3rem,3vw,2rem);color:var(--gold);margin-top:34px}
+  .subtag{color:var(--cream-dim);max-width:34ch;margin:16px auto 0;font-size:1.05rem}
+  .actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:36px}
+  .btn{font-family:var(--mono);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;
+    padding:15px 26px;border-radius:3px;display:inline-block;transition:transform .18s,box-shadow .25s,border-color .2s,color .2s}
+  .btn-solid{background:linear-gradient(135deg,var(--flame),var(--ember));color:#2a1200;font-weight:700;
+    box-shadow:0 6px 26px rgba(224,83,31,.4)}
+  .btn-solid:hover{transform:translateY(-2px);box-shadow:0 10px 34px rgba(244,160,29,.55)}
+  .btn-ghost{border:1px solid var(--line-2);color:var(--cream)}
+  .btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+  .scrollcue{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:2;
+    font-family:var(--mono);font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-dim);
+    animation:bob 2s ease-in-out infinite}
+
+  /* marquee */
+  .marquee{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    background:linear-gradient(90deg,var(--deep-2),var(--deep-3),var(--deep-2));padding:16px 0}
+  .marquee-track{display:flex;gap:44px;white-space:nowrap;width:max-content;animation:slide 26s linear infinite}
+  .marquee span{font-family:var(--serif);font-style:italic;font-size:1.5rem;color:var(--gold);opacity:.85}
+  .marquee b{color:var(--ember)}
+
+  section{padding:100px 0}
+  .sec-head{max-width:640px;margin:0 auto 60px;text-align:center}
+  .sec-head h2{font-size:clamp(2rem,4.6vw,3.3rem);line-height:1.1;margin-top:16px;
+    background:linear-gradient(120deg,var(--cream),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sec-head p{color:var(--cream-dim);margin-top:18px}
+
+  /* quality */
+  .quality-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  @media (max-width:820px){.quality-grid{grid-template-columns:1fr;max-width:440px;margin:0 auto}}
+  .qcard{background:linear-gradient(160deg,var(--deep-2),var(--deep));border:1px solid var(--line);border-radius:10px;
+    padding:34px 30px;text-align:center;position:relative;overflow:hidden}
+  .qcard .glyph{font-size:2rem;margin-bottom:14px}
+  .qcard h3{font-size:1.35rem;color:var(--gold)}
+  .qcard p{color:var(--cream-dim);font-size:.95rem;margin-top:10px}
+
+  /* products */
+  .specimens{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  @media (max-width:820px){.specimens{grid-template-columns:1fr;max-width:420px;margin:0 auto}}
+  .specimen{background:linear-gradient(165deg,var(--deep-2),var(--deep));border:1px solid var(--line);border-radius:12px;
+    padding:34px 30px 30px;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s,border-color .3s}
+  .specimen:hover{transform:translateY(-6px);border-color:var(--line-2);box-shadow:0 20px 50px rgba(224,83,31,.18)}
+  .disc{width:158px;height:158px;border-radius:50%;margin:0 auto 24px;position:relative;overflow:hidden;
+    background:radial-gradient(circle at 42% 36%,#3a2413,#0f0805);
+    box-shadow:inset 0 3px 16px rgba(0,0,0,.6),0 0 0 1px var(--line),0 0 34px rgba(244,160,29,.12);transition:box-shadow .3s}
+  .specimen:hover .disc{box-shadow:inset 0 3px 16px rgba(0,0,0,.6),0 0 0 1px var(--line-2),0 0 46px rgba(244,160,29,.3)}
+  .disc canvas,.disc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .disc img{transition:transform .5s ease}
+  .specimen:hover .disc img{transform:scale(1.07)}
+  .specimen h3{font-size:1.7rem;text-align:center}
+  .vernac{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;text-align:center;margin-top:8px}
+  .vernac .tam{font-family:var(--serif);letter-spacing:0;text-transform:none;font-size:.95rem;color:var(--cream-dim)}
+  .specimen[data-dal="toor"] .vernac{color:var(--toor)}
+  .specimen[data-dal="moong"] .vernac{color:var(--moong)}
+  .specimen[data-dal="urad"] .vernac{color:var(--urad)}
+  .specimen p.desc{color:var(--cream-dim);font-size:.94rem;line-height:1.6;margin-top:16px;text-align:center}
+  .spec-data{margin-top:22px;padding-top:18px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:9px}
+  .spec-row{display:flex;justify-content:space-between;gap:12px;font-family:var(--mono);font-size:.74rem}
+  .spec-row dt{color:var(--cream-dim);text-transform:uppercase;letter-spacing:.1em;font-size:.66rem}
+  .spec-row dd{margin:0;color:var(--cream);text-align:right;font-variant-numeric:tabular-nums}
+
+  /* contact */
+  .contact{position:relative;background:linear-gradient(180deg,var(--deep),var(--deep-2))}
+  .contact-card{background:linear-gradient(160deg,var(--deep-3),var(--deep-2));border:1px solid var(--line-2);border-radius:14px;
+    padding:52px clamp(28px,5vw,64px);position:relative;overflow:hidden;
+    box-shadow:0 0 60px rgba(224,83,31,.12)}
+  .contact-card::before{content:"WHOLESALE ONLY";position:absolute;top:26px;right:-46px;transform:rotate(38deg);
+    background:linear-gradient(135deg,var(--flame),var(--ember));color:#2a1200;font-family:var(--mono);font-size:.6rem;
+    letter-spacing:.2em;font-weight:700;padding:6px 56px}
+  .contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:36px 48px}
+  @media (max-width:600px){.contact-grid{grid-template-columns:1fr;gap:28px}}
+  .field .label{display:block;margin-bottom:7px}
+  .field .val{font-family:var(--serif);font-size:1.32rem;line-height:1.4}
+  .field a.val{text-decoration:none;border-bottom:1px solid var(--line-2);transition:border-color .2s}
+  .field a.val:hover{border-color:var(--gold)}
+  .field .sub{font-size:.9rem;color:var(--cream-dim);margin-top:4px}
+  .veg{display:inline-flex;align-items:center;gap:8px;margin-top:8px;font-family:var(--mono);font-size:.66rem;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--cream-dim)}
+  .veg i{width:14px;height:14px;border:1.5px solid #2e8b2e;display:inline-grid;place-items:center;border-radius:2px}
+  .veg i::after{content:"";width:7px;height:7px;border-radius:50%;background:#2e8b2e}
+
+  .dishes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  @media (max-width:820px){.dishes-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto}}
+  .dish{position:relative;margin:0;aspect-ratio:4/5;border-radius:12px;overflow:hidden;
+    background-color:var(--deep-2);background-size:cover;background-position:center;
+    border:1px solid var(--line);display:flex;align-items:flex-end;transition:transform .35s,box-shadow .35s,border-color .35s}
+  .dish:hover{transform:translateY(-6px);border-color:var(--line-2);box-shadow:0 20px 50px rgba(224,83,31,.2)}
+  .dish figcaption{padding:24px;display:flex;flex-direction:column;gap:4px}
+  .dish-dal{font-family:var(--mono);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+  .dish-name{font-family:var(--serif);font-size:1.5rem;color:#fff}
+  .imgband{position:relative;min-height:60vh;display:grid;place-items:center;text-align:center;
+    background:linear-gradient(rgba(21,11,5,.5),rgba(21,11,5,.82)),url("assets/toor-grains.png") center/cover no-repeat;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .imgband-line{font-family:var(--serif);font-style:italic;font-size:clamp(1.6rem,4vw,3rem);color:var(--cream);
+    line-height:1.3;margin-top:14px;text-shadow:0 2px 20px rgba(0,0,0,.6);padding:0 26px}
+  footer{padding:56px 0;text-align:center;border-top:1px solid var(--line)}
+  footer .logo-oval{padding:12px 34px;animation:none;margin-bottom:16px;display:inline-block}
+  footer .logo-oval h1{font-size:2rem}
+  footer p{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-dim);margin-top:6px}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+  .reveal.in{opacity:1;transform:none}
+
+  @keyframes riseIn{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+  @keyframes flame{0%,100%{box-shadow:0 0 60px rgba(244,160,29,.32),0 0 120px rgba(228,83,31,.22),inset 0 2px 4px rgba(255,220,150,.35),inset 0 -6px 18px rgba(0,0,0,.4)}
+    50%{box-shadow:0 0 78px rgba(244,160,29,.5),0 0 150px rgba(228,83,31,.34),inset 0 2px 4px rgba(255,220,150,.4),inset 0 -6px 18px rgba(0,0,0,.4)}}
+  @keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(6px)}}
+  @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important}
+    .reveal{opacity:1;transform:none;transition:none}
+    .hero-content{animation:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <a class="tb-brand" href="#top">
+    <span class="tb-oval"><span>Jyothi</span></span>
+    <small>Dhall · Chennai</small>
+  </a>
+  <nav class="nav" aria-label="Primary">
+    <a href="#quality">Quality</a>
+    <a href="#supply">Our Dhalls</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <canvas id="fx" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <p class="eyebrow">Premium Quality Dhalls · Tondiarpet, Chennai</p>
+      <div class="logo" style="margin-top:22px">
+        <span class="logo-tamil">ஜோதி</span>
+        <span class="logo-oval"><h1>Jyothi</h1></span>
+      </div>
+      <p class="tagline">Farm-fresh, milled clean.</p>
+      <p class="subtag">Premium wholesale toor, urad and moong dhall — hygienically processed and sorted, so only pure farm-fresh grain reaches your kitchen.</p>
+      <div class="actions">
+        <a class="btn btn-solid" href="tel:+919840061949">Call +91 98400 61949</a>
+        <a class="btn btn-ghost" href="#contact">Wholesale enquiries</a>
+      </div>
+    </div>
+    <div class="scrollcue" aria-hidden="true">Scroll ↓</div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Toor <b>·</b> Urad <b>·</b> Moong <b>·</b> Hygienically Processed <b>·</b> Farm Fresh <b>·</b></span>
+      <span>Toor <b>·</b> Urad <b>·</b> Moong <b>·</b> Hygienically Processed <b>·</b> Farm Fresh <b>·</b></span>
+    </div>
+  </div>
+
+  <section id="quality" class="wrap">
+    <div class="sec-head reveal">
+      <p class="eyebrow">The Jyothi promise</p>
+      <h2>Clean, sorted, and honest</h2>
+      <p>Premium Jyothi-brand dhalls are processed through a sophisticated automated line and packed under stringent quality control — the same care in every sack.</p>
+    </div>
+    <div class="quality-grid">
+      <div class="qcard reveal"><div class="glyph">🌾</div><h3>Farm fresh</h3><p>Pure, flawless dhall of consistent quality, sourced fresh in season.</p></div>
+      <div class="qcard reveal"><div class="glyph">⚙️</div><h3>Hygienically processed</h3><p>Cleaned and sorted through a sophisticated automated process, start to pack.</p></div>
+      <div class="qcard reveal"><div class="glyph">💪</div><h3>Rich in protein</h3><p>Naturally high in protein and dietary fibre — nourishing everyday food.</p></div>
+    </div>
+  </section>
+
+  <section id="supply" class="wrap" style="padding-top:20px">
+    <div class="sec-head reveal">
+      <p class="eyebrow">What we supply</p>
+      <h2>Three dhalls, by the sack</h2>
+      <p>The three pulses a South Indian kitchen runs on — supplied wholesale to retailers, mess halls and provision stores.</p>
+    </div>
+    <div class="specimens">
+      <article class="specimen reveal" data-dal="toor">
+        <div class="disc"><img src="assets/toor-grains.png" alt="Toor dhall grains" loading="lazy"></div>
+        <h3>Toor Dhall</h3>
+        <p class="vernac">Arhar · <span class="tam">துவரம் பருப்பு</span></p>
+        <p class="desc">The golden split pea at the heart of every sambar and everyday paruppu.</p>
+        <dl class="spec-data">
+          <div class="spec-row"><dt>Protein / 100g</dt><dd>19.5 g</dd></div>
+          <div class="spec-row"><dt>Supply</dt><dd>Wholesale · by sack</dd></div>
+        </dl>
+      </article>
+      <article class="specimen reveal" data-dal="urad">
+        <div class="disc"><img src="assets/urad-grains.png" alt="Urad dhall grains" loading="lazy"></div>
+        <h3>Urad Dhall</h3>
+        <p class="vernac">Black Gram · <span class="tam">உளுந்து பருப்பு</span></p>
+        <p class="desc">The backbone of the South Indian kitchen — idli, dosa, vada and papad.</p>
+        <dl class="spec-data">
+          <div class="spec-row"><dt>Protein / 100g</dt><dd>High</dd></div>
+          <div class="spec-row"><dt>Supply</dt><dd>Wholesale · by sack</dd></div>
+        </dl>
+      </article>
+      <article class="specimen reveal" data-dal="moong">
+        <div class="disc"><img src="assets/moong-grains.png" alt="Moong dhall grains" loading="lazy"></div>
+        <h3>Moong Dhall</h3>
+        <p class="vernac">Green Gram · <span class="tam">பாசிப் பருப்பு</span></p>
+        <p class="desc">The lightest, most digestible pulse — for khichdi, payasam and everyday dhall.</p>
+        <dl class="spec-data">
+          <div class="spec-row"><dt>Protein / 100g</dt><dd>22.7 g</dd></div>
+          <div class="spec-row"><dt>Supply</dt><dd>Wholesale · by sack</dd></div>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <section id="dishes" class="wrap" style="padding-top:20px">
+    <div class="sec-head reveal">
+      <p class="eyebrow">In every South Indian kitchen</p>
+      <h2>What these grains become</h2>
+      <p>From the morning tiffin to the midday meal — the dishes our dhalls are made for.</p>
+    </div>
+    <div class="dishes-grid">
+      <figure class="dish reveal" style="background-image:linear-gradient(rgba(21,11,5,0),rgba(21,11,5,.85)),url('assets/dish-sambar.png')">
+        <figcaption><span class="dish-dal">Toor Dhall</span><span class="dish-name">Sambar &amp; paruppu</span></figcaption>
+      </figure>
+      <figure class="dish reveal" style="background-image:linear-gradient(rgba(21,11,5,0),rgba(21,11,5,.85)),url('assets/dish-idli.png')">
+        <figcaption><span class="dish-dal">Urad Dhall</span><span class="dish-name">Idli · Dosa · Vada</span></figcaption>
+      </figure>
+      <figure class="dish reveal" style="background-image:linear-gradient(rgba(21,11,5,0),rgba(21,11,5,.85)),url('assets/dish-pongal.png')">
+        <figcaption><span class="dish-dal">Moong Dhall</span><span class="dish-name">Pongal · Payasam</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="imgband" aria-label="Golden toor dhall">
+    <div class="imgband-inner reveal">
+      <p class="eyebrow" style="color:var(--gold)">Pure &amp; golden</p>
+      <p class="imgband-line">From the season's best grain,<br>milled clean and sorted by machine.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="sec-head reveal" style="margin-bottom:44px">
+        <p class="eyebrow">Contact</p>
+        <h2>Order from the mill</h2>
+        <p>For wholesale orders and enquiries, reach us directly.</p>
+      </div>
+      <div class="contact-card reveal">
+        <div class="contact-grid">
+          <div class="field">
+            <span class="label">Manufactured &amp; packed by</span>
+            <div class="val">J. Saravana Kumar</div>
+            <div class="sub">Jyothi Brand Dhalls</div>
+            <span class="veg"><i></i> Vegetarian</span>
+          </div>
+          <div class="field">
+            <span class="label">Address</span>
+            <div class="val" style="font-size:1.14rem;line-height:1.5">126/1, Seniamman Koil Street,<br>Tondiarpet, Chennai&nbsp;– 600&nbsp;081</div>
+          </div>
+          <div class="field">
+            <span class="label">Telephone</span>
+            <a class="val" href="tel:+919840061949">+91&nbsp;98400&nbsp;61949</a>
+          </div>
+          <div class="field">
+            <span class="label">Email</span>
+            <a class="val" style="font-size:1.12rem" href="mailto:jsksaravanan@gmail.com">jsksaravanan@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span class="logo-oval"><h1>Jyothi</h1></span>
+  <p>Jyothi Brand Dhalls · Tondiarpet, Chennai · Wholesale only</p>
+</footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+
+  // topbar solidify
+  var tb=document.getElementById("topbar");
+  addEventListener("scroll",function(){tb.classList.toggle("solid",scrollY>40)},{passive:true});
+
+  // ---- product disc grains ----
+  var PAL={
+    toor:{seeds:["#e7a92c","#d99a1f","#f0b840","#c98a1c","#b87d18"],dark:0},
+    moong:{seeds:["#a7b25a","#93a047","#b9c26e","#84913c","#e2c34a"],dark:0},
+    urad:{seeds:["#e9dfc8","#dccfb2","#f2ead6","#cdc0a2","#d6c9ab"],dark:.12}
+  };
+  function ovals(canvas,pal,o){
+    var dpr=Math.min(devicePixelRatio||1,2),r=canvas.getBoundingClientRect(),w=r.width,h=r.height;if(!w||!h)return;
+    canvas.width=w*dpr;canvas.height=h*dpr;var c=canvas.getContext("2d");c.setTransform(dpr,0,0,dpr,0,0);c.clearRect(0,0,w,h);
+    var cx=w/2,cy=h/2,R=Math.min(w,h)/2*.96;
+    for(var i=0;i<o.count;i++){
+      var a=Math.random()*Math.PI*2,rr=Math.sqrt(Math.random())*R*.99,x=cx+Math.cos(a)*rr,y=cy+Math.sin(a)*rr;
+      var len=(o.size||12)*(.75+Math.random()*.6),wid=len*(.55+Math.random()*.12),rot=Math.random()*Math.PI,col;
+      if(pal.dark&&Math.random()<pal.dark)col="#1a130a";else col=pal.seeds[(Math.random()*pal.seeds.length)|0];
+      c.save();c.translate(x,y);c.rotate(rot);c.fillStyle=col;c.beginPath();c.ellipse(0,0,len/2,wid/2,0,0,7);c.fill();
+      c.globalAlpha=.3;c.strokeStyle="rgba(0,0,0,.4)";c.lineWidth=.5;c.beginPath();c.moveTo(-len/2*.7,0);c.lineTo(len/2*.7,0);c.stroke();c.restore();
+    }
+  }
+  function discs(){document.querySelectorAll(".disc canvas").forEach(function(cv){ovals(cv,PAL[cv.getAttribute("data-dal")],{count:150,size:13})})}
+  discs();addEventListener("load",discs);
+  var rt;addEventListener("resize",function(){clearTimeout(rt);rt=setTimeout(discs,180)});
+
+  // ---- hero fx: sunburst rays + rising embers ----
+  var fx=document.getElementById("fx"),ctx=fx.getContext("2d"),W,H,DPR,parts=[],t=0,raf;
+  function size(){DPR=Math.min(devicePixelRatio||1,2);var r=fx.getBoundingClientRect();W=r.width;H=r.height;
+    fx.width=W*DPR;fx.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);
+    parts=[];var n=reduce?0:Math.min(70,Math.round(W*H/16000));
+    for(var i=0;i<n;i++)parts.push(mk(true));}
+  function mk(any){return{x:Math.random()*W,y:any?Math.random()*H:H+10,
+    r:.6+Math.random()*2.2,vy:.15+Math.random()*.5,drift:(Math.random()-.5)*.25,
+    a:.15+Math.random()*.55,hue:Math.random()<.5?"244,160,29":"224,83,31"}}
+  function frame(){
+    ctx.clearRect(0,0,W,H);
+    var cx=W/2,cy=H*.42;
+    // sunburst rays
+    if(!reduce){
+      ctx.save();ctx.translate(cx,cy);ctx.rotate(t*.0004);
+      var rays=46,R=Math.max(W,H);
+      for(var i=0;i<rays;i++){
+        ctx.rotate(Math.PI*2/rays);
+        var flick=.5+.5*Math.sin(t*.002+i);
+        var g=ctx.createLinearGradient(0,0,0,-R);
+        g.addColorStop(0,"rgba(244,160,29,"+(.05*flick)+")");
+        g.addColorStop(1,"rgba(244,160,29,0)");
+        ctx.fillStyle=g;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(-8,-R);ctx.lineTo(8,-R);ctx.closePath();ctx.fill();
+      }
+      ctx.restore();
+    }
+    // central glow
+    var gg=ctx.createRadialGradient(cx,cy,0,cx,cy,Math.min(W,H)*.5);
+    gg.addColorStop(0,"rgba(244,160,29,.18)");gg.addColorStop(.5,"rgba(224,83,31,.06)");gg.addColorStop(1,"rgba(0,0,0,0)");
+    ctx.fillStyle=gg;ctx.fillRect(0,0,W,H);
+    // embers
+    for(var j=0;j<parts.length;j++){var p=parts[j];p.y-=p.vy;p.x+=p.drift;
+      if(p.y<-10){parts[j]=mk(false);continue;}
+      ctx.globalAlpha=p.a*(reduce?1:(.6+.4*Math.sin(t*.003+j)));
+      ctx.fillStyle="rgba("+p.hue+",1)";ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fill();ctx.globalAlpha=1;}
+    t+=16;raf=requestAnimationFrame(frame);
+  }
+  size();addEventListener("resize",function(){cancelAnimationFrame(raf);size();if(!hidden())raf=requestAnimationFrame(frame)});
+  function hidden(){return document.hidden}
+  document.addEventListener("visibilitychange",function(){if(hidden())cancelAnimationFrame(raf);else raf=requestAnimationFrame(frame)});
+  if(reduce){frame();}else{raf=requestAnimationFrame(frame);}
+
+  // ---- reveals ----
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.14});
+    document.querySelectorAll(".reveal").forEach(function(el){io.observe(el)});
+  }else document.querySelectorAll(".reveal").forEach(function(el){el.classList.add("in")});
+})();
+</script>
+</body>
+</html>
